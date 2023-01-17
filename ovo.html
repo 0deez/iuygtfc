@@ -56,9 +56,26 @@ button:hover {
     background-color: #ffffff;
 }
 </style>
-  <style>
-body {
-  background: #1C0D6C;
-}
+<style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        /* we use dot (.) to target class and
+        hash (#) to target id... */
+        #particles-js {
+            width: 100%;
+            height: 100vh;
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.7)),
+                url("img.jpg");
+            background-position: center;
+            background-size: cover;
+        }
   </style> 
+<script src="particles.js"></script>
+    <script src="app.js"></script>
 </html>
